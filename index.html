@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Steps</title>
+    <link rel="stylesheet" href="style.css/normalize.css" />
+    <link rel="stylesheet" href="style.css/framework.css" />
+    <link rel="stylesheet" href="style.css/style.css" />
+    <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="side-bar">
+        <ul class="numbers">
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+        <ul class="info">
+          <li>
+            <span>step 1</span>
+            <p>your info</p>
+          </li>
+          <li>
+            <span>step 2</span>
+            <p>select plan</p>
+          </li>
+          <li>
+            <span>step 3</span>
+            <p>add-ons</p>
+          </li>
+          <li>
+            <span>step 4</span>
+            <p>summary</p>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1 class="special">personal info</h1>
+        <p>please provide your name,email address and phone number</p>
+        <form class="input1" action="/plan.html">
+          <label for="name">name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+          <label for="mail">email address</label>
+          <input type="email" id="mail" placeholder="Your email" required />
+          <label for="phone">phone number</label>
+          <input type="text" id="phone" placeholder="Your number" required />
+        </form>
+        <div class="btn1">
+          <span><a class="link1" href="#">Next step</a></span>
+          <span style="display: none">Go Back</span>
+        </div>
+      </div>
+      <div class="btn2">
+        <span>Next step</span>
+        <span class="d-none">Go Back</span>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

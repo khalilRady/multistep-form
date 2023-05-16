@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Steps</title>
+    <link rel="stylesheet" href="style.css/normalize.css" />
+    <link rel="stylesheet" href="style.css/framework.css" />
+    <link rel="stylesheet" href="style.css/style.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="side-bar">
+        <ul class="numbers">
+          <li>1</li>
+          <li class="active">2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+        <ul class="info">
+          <li>
+            <span>step 1</span>
+            <p>your info</p>
+          </li>
+          <li>
+            <span>step 2</span>
+            <p>select plan</p>
+          </li>
+          <li>
+            <span>step 3</span>
+            <p>add-ons</p>
+          </li>
+          <li>
+            <span>step 4</span>
+            <p>summary</p>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1 class="special">select your plan</h1>
+        <p>you have the option of monthly or yearly billing</p>
+        <div class="card">
+          <div class="first active">
+           
+            <img src="./multi-step-form-main/assets/images/icon-arcade.svg" alt="">
+           <div>
+
+             <p>arcade</p>
+             <span class="change">$<span class="price">9</span><span class="timing">/mo</span></span>
+            </div>
+          </div>
+          <div class="second">
+            <img src="./multi-step-form-main/assets/images/icon-advanced.svg" alt="">
+            <div>
+
+              <p>advanced</p>
+              <span class="change">$<span class="price">12</span><span class="timing">/mo</span> </span>
+            </div>
+          </div>
+          <div class="third">
+            <img src="./multi-step-form-main/assets/images/icon-pro.svg" alt="">
+            <div>
+
+              <p>pro</p>
+              <span class="change">$<span class="price">15</span><span class="timing">/mo</span> </span>
+            </div>
+          </div>
+        </div>
+  <div class="choosen">
+  <label class="active" data-time="$/mo" for="check">monthly</label>
+  <input class="input" id="check" type="checkbox">
+  <label for="check" data-time="$/Yr">yearly</label>
+</div>
+<div class="btn1">
+  <span class="one"><a href="add.html">Next step</a></span>
+  <span class="two"><a href="index.html">Go Back</a></span>
+</div>
+</div>
+<div class="btn2">
+  <span>Next step</span>
+  <span>Go Back</span>
+</div>
+    <script src="js/main-plan.js"></script>
+  </body>
+</html>

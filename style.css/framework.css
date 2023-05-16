@@ -1,0 +1,35 @@
+/* start padding and margin */
+
+
+.p-20 {
+    padding: 20px;
+}
+.mb-7 {
+    margin-bottom: 7px;
+}
+
+
+/* end padding and margin */
+
+/* start flex-grid systems */
+
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.align-center {
+    align-items: center;
+}
+.gap-20 {
+    gap: 20px;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end flex-grid systems */
+
